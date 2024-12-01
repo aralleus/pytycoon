@@ -1,0 +1,48 @@
+{
+  "actions_menu": [
+    {
+      "name": "Play",
+      "description": "Start or continue a game."
+    },
+    {
+      "name": "Settings",
+      "description": "Edit your game's configuration."
+    },
+    {
+      "name": "Statistics",
+      "description": "Your statistics."
+    },
+    {
+      "name": "About",
+      "description": "About the game."
+    },
+    {
+      "name": "Exit",
+      "description": "Exit from game."
+    }
+  ],
+  "actions_play": [
+    {
+      "name": "New game",
+      "description": "Start a new game."
+    },
+    {
+      "name": "Continue",
+      "description": "Continue with your previous save."
+    },
+    {
+      "name": "Exit",
+      "description": "Return to menu."
+    }
+  ],
+  "actions_new_game": [
+      {
+        "name": "Yes",
+        "description": "Create a new game."
+      },
+      {
+        "name": "No",
+        "description": "Return back to slot menu."
+      }
+  ]
+}
