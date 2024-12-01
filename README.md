@@ -11,7 +11,7 @@
   - termcolor
   - os
 
-*Inspired by: [PyShopTycoon](https://https://github.com/Victor0596647/PyShopTycoon)*
+*Inspired by: [PyShopTycoon](https://github.com/Victor0596647/PyShopTycoon)*
 
 ### ***Contributors:***
   - [aralleus](https://github.com/aralleus)
