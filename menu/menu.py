@@ -25,15 +25,15 @@ class menu:
     def display(self, actions, descriptions, curIndex):
         cls()
 
-        print(colored("                     __", "blue"))
-        print(colored("                    /\ \__", "blue"))
-        print(colored(" _____    __  __    \ \ ,_\   __  __      ___     ___     ___     ___", "blue"))
-        print(colored("/\ '__`\ /\ \/\ \    \ \ \/  /\ \/\ \    /'___\  / __`\  / __`\ /' _ `\ ", "blue"))
-        print(colored("\ \ \L\ \\ \ \_\ \    \ \ \_ \ \ \_\ \  /\ \__/ /\ \L\ \/\ \L\ \/\ \/\ \ ", "blue"))
-        print(colored(" \ \ ,__/ \/`____ \    \ \__\ \/`____ \ \ \____\\ \____/\ \____/\ \_\ \_\ ", "blue"))
-        print(colored("  \ \ \/   `/___/> \    \/__/  `/___/> \ \/____/ \/___/  \/___/  \/_/\/_/ ", "blue"))
-        print(colored("   \ \_\      /\___/              /\___/ ", "blue"))
-        print(colored("    \/_/      \/__/               \/__/ ", "blue"))
+        print(colored(r"                     __", "blue"))
+        print(colored(r"                    /\ \__", "blue"))
+        print(colored(r" _____    __  __    \ \ ,_\   __  __      ___     ___     ___     ___", "blue"))
+        print(colored(r"/\ '__`\ /\ \/\ \    \ \ \/  /\ \/\ \    /'___\  / __`\  / __`\ /' _ `\ ", "blue"))
+        print(colored(r"\ \ \L\ \\ \ \_\ \    \ \ \_ \ \ \_\ \  /\ \__/ /\ \ \ \/\ \ \ \/\ \/\ \ ", "blue"))
+        print(colored(r" \ \ ,__/ \/`____ \    \ \__\ \/`____ \ \ \____\\ \____/\ \____/\ \_\ \_\ ", "blue"))
+        print(colored(r"  \ \ \/   `/___/> \    \/__/  `/___/> \ \/____/ \/___/  \/___/  \/_/\/_/ ", "blue"))
+        print(colored(r"   \ \_\      /\___/              /\___/ ", "blue"))
+        print(colored(r"    \/_/      \/__/               \/__/ ", "blue"))
         print("")
 
         for i, action in enumerate(actions):
