@@ -11,10 +11,13 @@ class about:
 
         version = "build1"
 
-        print(colored("    ___       / __        ___                __  ___", "green"))
-        print(colored("  //   ) )   //   ) )   //   ) )   //   / /   / /", "green"))
-        print(colored(" //   / /   //   / /   //   / /   //   / /   / /", "green"))
-        print(colored("((___( (   ((___/ /   ((___/ /   ((___( (   / /", "green"))
+        print(colored(r"           __                          __", "blue"))
+        print(colored(r"          /\ \                        /\ \__", "blue"))
+        print(colored(r"   __     \ \ \____    ___    __  __  \ \ ,_\ ", "blue"))
+        print(colored(r" /'__`\    \ \ '__`\  / __`\ /\ \/\ \  \ \ \/", "blue"))
+        print(colored(r"/\ \ \.\_   \ \ \ \ \/\ \ \ \\ \ \_\ \  \ \ \_", "blue"))
+        print(colored(r"\ \__/.\_\   \ \_,__/\ \____/ \ \____/   \ \__\ ", "blue"))
+        print(colored(r" \/__/\/_/    \/___/  \/___/   \/___/     \/__/", "blue"))
 
         print(f"Version: {version}")
         print("----------")
