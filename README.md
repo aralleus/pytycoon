@@ -10,6 +10,7 @@
   - time
   - termcolor
   - os
+  - shutil
 
 *Inspired by: [PyShopTycoon](https://github.com/Victor0596647/PyShopTycoon)*
 
