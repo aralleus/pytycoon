@@ -47,6 +47,9 @@ class play:
 
     def start(self):
         cls()
+        self.actions = []
+        self.descriptions = []
+        self.curIndex = 0
 
         with open("data/actions/actions.json") as file:
             rawActions = json.load(file)

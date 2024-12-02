@@ -71,6 +71,10 @@ class menu:
                     quit()
 
     def start(self):
+        self.actions = []
+        self.descriptions = []
+        self.curIndex = 0
+
         with open("data/actions/actions.json") as file:
             rawActions = json.load(file)
 
