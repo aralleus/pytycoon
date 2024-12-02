@@ -15,7 +15,6 @@ console = Console()
 about = about()
 play = play()
 
-
 class menu:
     def __init__(self):
         self.rawActions = []
@@ -26,17 +25,22 @@ class menu:
     def display(self, actions, descriptions, curIndex):
         cls()
 
-        print(colored("    ___               __  ___               ___        ___        ___         __", "green"))
-        print(colored("  //   ) )  //   / /   / /     //   / /   //   ) )   //   ) )   //   ) )   //   ) )", "green"))
-        print(colored(" //___/ /  ((___/ /   / /     ((___/ /   //         //   / /   //   / /   //   / /", "green"))
-        print(colored("//             / /   / /          / /   ((____     ((___/ /   ((___/ /   //   / /", "green"))
+        print(colored("                     __", "blue"))
+        print(colored("                    /\ \__", "blue"))
+        print(colored(" _____    __  __    \ \ ,_\   __  __      ___     ___     ___     ___", "blue"))
+        print(colored("/\ '__`\ /\ \/\ \    \ \ \/  /\ \/\ \    /'___\  / __`\  / __`\ /' _ `\ ", "blue"))
+        print(colored("\ \ \L\ \\ \ \_\ \    \ \ \_ \ \ \_\ \  /\ \__/ /\ \L\ \/\ \L\ \/\ \/\ \ ", "blue"))
+        print(colored(" \ \ ,__/ \/`____ \    \ \__\ \/`____ \ \ \____\\ \____/\ \____/\ \_\ \_\ ", "blue"))
+        print(colored("  \ \ \/   `/___/> \    \/__/  `/___/> \ \/____/ \/___/  \/___/  \/_/\/_/ ", "blue"))
+        print(colored("   \ \_\      /\___/              /\___/ ", "blue"))
+        print(colored("    \/_/      \/__/               \/__/ ", "blue"))
         print("")
 
         for i, action in enumerate(actions):
             if i == curIndex:
                 print(f"> {action} - {descriptions[i]}")
             else:
-                print(colored(f"  {action}", "green"))
+                print(colored(f"  {action}", "blue"))
 
     def check(self):
         self.display(self.actions, self.descriptions, self.curIndex)

@@ -5,12 +5,7 @@ import json
 from other.cls import cls
 from other.game.data.save import save
 
-from rich.console import Console
-from rich.panel import Panel
-
 save = save()
-console = Console()
-
 class play:
     def __init__(self):
         self.actions = []
@@ -24,7 +19,7 @@ class play:
             if i == curIndex:
                 print(f"> {action} - {descriptions[i]}")
             else:
-                print(colored(f"  {action}", "green"))
+                print(colored(f"  {action}", "blue"))
     def check(self):
         from menu.menu import menu
         menu = menu()
@@ -49,7 +44,6 @@ class play:
                     save.display_saves()
                 elif self.curIndex == 2:
                     menu.start()
-                    break
 
     def start(self):
         cls()
