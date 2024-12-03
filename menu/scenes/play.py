@@ -3,6 +3,8 @@ import time
 from termcolor import colored
 import json
 from other.cls import cls
+from other.center import center
+from other.center_block import center_block
 from other.game.data.save import save
 
 save = save()
@@ -15,11 +17,26 @@ class play:
 
     def display(self, actions, descriptions, curIndex):
         cls()
+
+        logo = r"""
+                  ___
+                 /\_ \
+         _____   \//\ \       __      __  __
+        /\ '__`\   \ \ \    /'__`\   /\ \/\ \
+        \ \ \ \ \   \_\ \_ /\ \ \.\_ \ \ \_\ \
+         \ \ ,__/   /\____\\ \__/.\_\ \/`____ \
+          \ \ \/    \/____/ \/__/\/_/  `/___/> \
+           \ \_\                          /\___/
+            \/_/                          \/__/ 
+        """
+
+        print(colored(center_block(logo), "blue"))
+
         for i, action in enumerate(actions):
             if i == curIndex:
-                print(f"> {action} - {descriptions[i]}")
+                print(center(f"> {action} - {descriptions[i]}"))
             else:
-                print(colored(f"  {action}", "blue"))
+                print(center(colored(f"  {action}", "blue")))
     def check(self):
         from menu.menu import menu
         menu = menu()
