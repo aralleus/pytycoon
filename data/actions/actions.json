@@ -6,15 +6,15 @@
     },
     {
       "name": "Settings",
-      "description": "Edit your game's configuration."
+      "description": "Soon."
     },
     {
       "name": "Statistics",
-      "description": "Your statistics."
+      "description": "Soon."
     },
     {
-      "name": "About",
-      "description": "About the game."
+      "name": "Information",
+      "description": "Information."
     },
     {
       "name": "Exit",
@@ -34,15 +34,5 @@
       "name": "Exit",
       "description": "Return to menu."
     }
-  ],
-  "actions_new_game": [
-      {
-        "name": "Yes",
-        "description": "Create a new game."
-      },
-      {
-        "name": "No",
-        "description": "Return back to slot menu."
-      }
   ]
 }
