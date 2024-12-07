@@ -2,7 +2,7 @@
 
 **Your goal is to manage your factory. Project is indevelopment and many things aren't done.**
 
-### ***Python libraries used:***
+### ***Python modules used:***
   - rich
   - keyboard
   - typing
