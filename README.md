@@ -1,6 +1,7 @@
 ### PyTycoon
 
 **Your goal is to manage your factory. Project is indevelopment and many things aren't done.**
+**Before starting main.py, make sure you have all libraries installed.**
 
 ### ***Python modules used:***
   - rich
