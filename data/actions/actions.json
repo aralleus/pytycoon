@@ -5,8 +5,12 @@
       "description": "Start or continue a game."
     },
     {
-      "name": "Settings",
+      "name": "Options",
       "description": "Soon."
+    },
+    {
+      "name": "Mods",
+      "description": "Mod loader."
     },
     {
       "name": "Statistics",
