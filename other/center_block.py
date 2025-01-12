@@ -1,6 +1,6 @@
 import shutil
 
-class CenterBlock:
+class center_block:
     """
     A class for centering a block of text in the current terminal.
     Each line is independently padded based on the maximum line length.
