@@ -1,6 +1,6 @@
 import shutil
 
-class CenterText:
+class center:
     """
     A simple class to center a given string in the current terminal window width.
     """
